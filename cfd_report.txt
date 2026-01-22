@@ -92,8 +92,8 @@ Boundary Conditions
 
          Condition                                    Value    
          ---------------------------------------------------
-         Gauge Total Pressure (pascal)                398675   
-         Supersonic/Initial Gauge Pressure (pascal)   5000     
+         Gauge Total Pressure (pascal)                398675 (changed as per increasing altitude) 
+         Supersonic/Initial Gauge Pressure (pascal)   5000 (non-zero value for solver iteration and convergence)   
          Total Temperature (k)                        1200     
 
       walls
@@ -175,5 +175,6 @@ Solver Settings
       Maximum Turb. Viscosity Ratio    100000   
 
 </SolverSettings>
+
 
 </FluentXMLReport>
